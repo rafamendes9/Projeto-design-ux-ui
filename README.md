@@ -1,2 +1,2 @@
 # introducao-design-ux-ui
-Semana da Computação da UNICAP
+ Minicurso de introducao design ux/ui na Semana da Computação da UNICAP
