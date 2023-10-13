@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Be Vietnam Pro' ;
+    text-decoration: none;
+}
+.navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover {
+    text-decoration: none;
+    color: #0047FF;
+}
+.nav-itens {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    list-style: none;
+
+}
+.nav-list .list-item {
+    padding: 30px 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.navbar .logo img {
+    width: 220px;
+    height: 30px;
+}
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .side-list {
+    position: absolute;
+    background-color: #fff;
+    height: 100vh;
+    width: 8vw;
+    top: 84px;
+    right: 0;
+    list-style: none;
+    transition: all 0.5s ease;
+}
+
+.sidebar .side-list .side-item {
+    display: flex;
+    padding: 25px 30px 25px;
+}
+
+.sidebar .side-list .side-item img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.sidebar .menu #menu-icon {
+    display: block;
+    text-align: center;
+}
+
+.sidebar .menu #menu-icon:hover {
+    cursor: pointer;
+}
+
+.container {
+    background-color: #ebf1f6;
+    display: flex;
+    flex-direction: column;
+}
+.primeira-parte {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 40px; 
+    border-bottom: 1px solid #000;
+}
+.primeira-parte .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.primeira-parte .foto {
+    display: flex;
+    width: 50%;
+}
+.primeira-parte .foto img {
+    width: 350px;
+    height: 350px;
+}
+.primeira-parte .titulo h3 {
+    color: #004A98;
+    font-size: 30px;
+}
+.primeira-parte .titulo h1 {
+    color: #000;
+    font-size: 50px;
+}
+.segunda-parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px 50px;
+    border-bottom: 1px solid #000;
+
+}
+.segunda-parte .titulo {
+    color: #004A98;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.segunda-parte .colunas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.segunda-parte .sobre {
+    color: #000;
+    font-weight: 300;
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.segunda-parte .perfil {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.segunda-parte .perfil img {
+    width: 300px;
+    height: 300px;
+}
+.segunda-parte .download {
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin: 20px 0 0;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.segunda-parte .github {
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin: 0 25px 0;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.terceira-parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px 0;
+}
+
+.terceira-parte .titulo {
+    color: #004A98;
+    font-size: 30px;
+}
+
+.terceira-parte input {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 50vw;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px;
+}
+
+.terceira-parte textarea {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+
+}
+
+.terceira-parte button {
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.estrela {
+    position: absolute;
+    left: 300px;
+    bottom: 10px;
+    top: 1000px;
+}
+.estrela img {
+    width: 50px;
+    height: 50px;
+}
+.footer {
+    background-color: #000;
+    height: 6vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+
+

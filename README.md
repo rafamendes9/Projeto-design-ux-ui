@@ -1,5 +1,5 @@
 # design-ui-ux
- Projeto introdutorio a design ux/ui
+ Projeto design ux/ui
  #
 ## nesse projeto foi usado:
 

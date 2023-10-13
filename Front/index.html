@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="estrela/png" href="../../images/estrela.png"/>
+
+    <title>Design UX/UI</title>
+</head>
+<body>
+    <header class="navbar-sidebar">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="../../images/logo.png">
+                </a>
+            </div>
+            <div class="nav-itens">
+                <ul class="nav-list">
+                    <li class="list-item"><a href="#">Início</a></li>
+                    <li class="list-item"><a href="#">Sobre</a></li>
+                    <li class="list-item"><a href="#">Contato</a></li>
+                </ul>
+    
+                <div class="sidebar">
+                    <div class="menu">
+                        <img id="menu-icon" src="../../images/sanduiche.png" onclick="clickMenu()">
+                    </div>
+                    <ul class="side-list" id="itens">
+                        <li class="side-item"><a href="#"><img src="../../images/faceboook.png"></a></li>
+                        <li class="side-item"><a href="#"><img src="../../images/github.png"></a></li>
+                        <li class="side-item"><a href="#"><img src="../../images/twitter.png"></a></li>
+                        <li class="side-item"><a href="#"><img src="../../images/instagram.png"></a></li>
+                        <li class="side-item"><a href="#"><img src="../../images/tumblr.png"></a></li>
+                        <li class="side-item"><a href="#"><img src="../../images/spotify.png"></a></li>
+
+                    </ul>
+                </div>
+            </div>  
+        </nav>
+    </header>
+    <div class="container">
+        <div class="primeira-parte">
+            <div class="titulo">
+                <h3>Olá, meu nome é</h3>
+                <h1>João Silva</h1>
+            </div>
+            <div class="foto">
+                <img src="../../images/escritorio.png" alt="">
+            </div>
+        </div>
+
+        <div class="segunda-parte">
+            <div class="titulo">
+                <h3>Sobre</h3>                
+            </div>
+            <div class="colunas">
+                <div class="perfil">
+                    <img src="../../images/jovem.jpg" alt="">
+                </div>
+                <div class="sobre">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at sem ac nulla laoreet hendrerit ut hendrerit elit. Cras aliquam egestas auctor. Maecenas rutrum, elit nec placerat suscipit, velit magna venenatis augue, id convallis est eros nec lectus. Aenean tempus, risus at condimentum sollicitudin, dui elit ornare turpis, vel ultrices lectus elit eget nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In pretium in metus quis luctus. Morbi quis malesuada erat. Morbi imperdiet blandit sem ut sagittis.</p>
+                    <div class="botoes">
+                        <button class="download">Download CV</button>
+                        <a class="github" href="#">Ir para GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="terceira-parte">
+            <div class="titulo">
+                <h3>Contato</h3>
+            </div>
+
+            <div class="estrela">
+                <img src="../../images/estrela.png">
+            </div>
+
+            <div class="contato">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <textarea name="mensagem" id="contato" cols="50" rows="50" placeholder="Me mande uma mensagem..."></textarea>
+                <button type="submit">Enviar</button>
+            </div>        
+        </div>
+    </div>
+    <div class="footer">
+        <span>Criado por João Silva | Todos os direitos reservado 2023</span>
+    </div>
+    <script>
+        function clickMenu() {
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
